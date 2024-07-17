@@ -1,0 +1,44 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+#voiceButton {
+  position: absolute;
+  top: 55px;
+  left: 280px;
+  z-index: 1000;
+  background-color: white;
+  border: none;
+  padding: 2px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+#voiceButton:hover {
+  background-color: #ededed;
+  color: white;
+}
+#dropdown-container {
+  position: absolute;
+  bottom: 6px;
+  left: 7px;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.839);
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+#dropdown-container option {
+  text-align: center;
+}
